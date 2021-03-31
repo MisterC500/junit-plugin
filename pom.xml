@@ -198,4 +198,16 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>5eee673a12ce-releases</name>
+            <url>http://172.19.0.2:8082/artifactory/JUNIT-libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>5eee673a12ce-snapshots</name>
+            <url>http://172.19.0.2:8082/artifactory/JUNIT-libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
